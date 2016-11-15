@@ -16,8 +16,7 @@ LOCAL_SRC_FILES:= \
 	fields.c
 
 LOCAL_SHARED_LIBRARIES := \
-	libcutils \
-	libc
+	libcutils
 
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := auditd
