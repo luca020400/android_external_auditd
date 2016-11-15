@@ -1,0 +1,6 @@
+on post-fs-data
+    mkdir /data/misc/audit 02750 root system
+
+service auditd /system/bin/auditd -k
+    class main
+    group system
